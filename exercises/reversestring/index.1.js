@@ -10,7 +10,7 @@
 
 function reverse(str) {
     let newstr = []
-    for (i=str.length;i>0;i--){
+    for (let i=str.length;i>0;i--){
         newstr[str.length-i]=str[i-1]
     }
     
