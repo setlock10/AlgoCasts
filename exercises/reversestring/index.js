@@ -8,11 +8,9 @@
 
 function reverse(str) {
     
-    return str.split('').reduce((x, y)=>{ 
-        console.log(y+x);
-        return (y + x);
-    },'');
+    return str.split('').reduce((x, y)=>y + x,'');
 }
 
+console.log(reverse('abdce'))
 
 module.exports = reverse;
